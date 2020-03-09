@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memilih Elemen Berdasarkan ID</title>
+</head>
+
+<body>
+    <!--The div element we will choose from js-->
+    <div id="tutoral"></div>
+
+    <script type="text/javascript">
+        // access the tutorial element
+        var tutorial = document.getElementById("tutoral");
+
+        // fill text into elements
+        tutorial.innerText = "Tutorial JavaScript";
+        tutorial.style.color = "yellow";
+
+
+        // clean the css to the elements
+        tutorial.style.backgroundColor = "blue";
+        tutorial.style.padding = "10px";
+    </script>
+</body>
+
+</html>
