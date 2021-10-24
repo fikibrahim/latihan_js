@@ -20,6 +20,15 @@ body {
     text-align: center;
  }
 
+ #headers {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: burlywood;
+    text-align: center;
+    color: white;
+ }
+
  #footer {
     width: 100%;
     height: 50px;
@@ -28,3 +37,5 @@ body {
     text-align: center;
     color: white;
  }
+
+ 
